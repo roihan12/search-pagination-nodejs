@@ -1,5 +1,5 @@
 # search-pagination-nodejs
-This repository contains a simple Node.js application that demonstrates search functionality with pagination using a MongoDB database.
+This repository contains a simple Node.js application that demonstrates search functionality with pagination using a MySQL database.
 
 ## Features:
 - Search Functionality: Implement basic search functionality to query data based on user input.
@@ -19,15 +19,9 @@ Install Dependencies:
 ```
     npm install
 ```
-3. Set Environment Variables:
+3. Start the Server:
 ```
-Create a .env file based on the provided .env.example template.
-Update the MongoDB connection URI in the .env file.
-```
-
-4. Start the Server:
-```
-npm start
+    npm start
 ```
 
 Contributions:
